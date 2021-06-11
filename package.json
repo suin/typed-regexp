@@ -1,6 +1,6 @@
 {
   "name": "@suin/typed-regexp",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A TypeScript utility to write type-safe regular expressions using named capture groups",
   "keywords": [
     "regex",
