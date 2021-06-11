@@ -9,9 +9,9 @@ devDependencies:
   prettier: 2.3.1
   semantic-release: 17.4.3
   sort-package-json: 1.50.0
-  ts-jest: 27.0.3_jest@27.0.4+typescript@4.3.2
-  typedoc: 0.20.36_typescript@4.3.2
-  typescript: 4.3.2
+  ts-jest: 27.0.3_jest@27.0.4+typescript@4.2.4
+  typedoc: 0.20.36_typescript@4.2.4
+  typescript: 4.2.4
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.14.5:
@@ -4537,7 +4537,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
-  /ts-jest/27.0.3_jest@27.0.4+typescript@4.3.2:
+  /ts-jest/27.0.3_jest@27.0.4+typescript@4.2.4:
     dependencies:
       bs-logger: 0.2.6
       buffer-from: 1.1.1
@@ -4549,7 +4549,7 @@ packages:
       make-error: 1.3.6
       mkdirp: 1.0.4
       semver: 7.3.5
-      typescript: 4.3.2
+      typescript: 4.2.4
       yargs-parser: 20.2.7
     dev: true
     engines:
@@ -4620,7 +4620,7 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-fIS001cAYHkyQPidWXmHuhs8usjP5XVJjWB8oZGqkTowZaz3v7g3KDZeeqE82FBrmkAnIBOY3jgy7lnPnqATbA==
-  /typedoc/0.20.36_typescript@4.3.2:
+  /typedoc/0.20.36_typescript@4.2.4:
     dependencies:
       colors: 1.4.0
       fs-extra: 9.1.0
@@ -4633,7 +4633,7 @@ packages:
       shelljs: 0.8.4
       shiki: 0.9.3
       typedoc-default-themes: 0.12.10
-      typescript: 4.3.2
+      typescript: 4.2.4
     dev: true
     engines:
       node: '>= 10.8.0'
@@ -4642,13 +4642,13 @@ packages:
       typescript: 3.9.x || 4.0.x || 4.1.x || 4.2.x
     resolution:
       integrity: sha512-qFU+DWMV/hifQ9ZAlTjdFO9wbUIHuUBpNXzv68ZyURAP9pInjZiO4+jCPeAzHVcaBCHER9WL/+YzzTt6ZlN/Nw==
-  /typescript/4.3.2:
+  /typescript/4.2.4:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==
+      integrity: sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
   /uglify-js/3.13.9:
     dev: true
     engines:
@@ -4895,4 +4895,4 @@ specifiers:
   sort-package-json: ^1.50.0
   ts-jest: ^27.0.2
   typedoc: ^0.20.36
-  typescript: ^4.3.2
+  typescript: 4.2.x
